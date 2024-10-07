@@ -21,6 +21,12 @@ ORDER BY
   e.last_name,
   e.first_name,
   num_orders DESC
+  
+-- Show first name, last name, and gender of patients whose gender is 'M'
+SELECT first_name,last_name,gender FROM patients
+where gender="M";
+
+
 
 --Show how much money the company lost due to giving discounts each year, order the years from most recent to least recent. Round to 2 decimal places
 Select 
