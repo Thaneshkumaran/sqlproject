@@ -10,7 +10,7 @@ print(task_content)
 db = mysql.connector.connect(
     host="localhost",
     user="thanesh",
-    password="123456",
+    password="",
     database="mysql"
 )
 
